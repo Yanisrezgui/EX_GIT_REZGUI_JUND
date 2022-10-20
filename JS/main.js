@@ -26,6 +26,7 @@ document.getElementById("input").addEventListener("keyup", function (e) {
             localStorage.setItem('Record', JSON.stringify(record))
             console.log(localStorage.getItem('Record'))
 
+
             console.log(playerName.value)
             console.log(tryNumber)
 
